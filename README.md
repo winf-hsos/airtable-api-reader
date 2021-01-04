@@ -2,6 +2,10 @@
 
 This web library facilitates interaction with the [Airtable API](https://airtable.com/api) by providing simple wrapper functions for reading data.
 
+# Load from CDN
+
+`<script scr="https://cdn.jsdelivr.net/gh/winf-hsos/airtable-api-reader/src/airtable-api-reader.min.js"></script>`
+
 # Usage
 
 ```html
@@ -11,7 +15,7 @@ This web library facilitates interaction with the [Airtable API](https://airtabl
     <title>Airtable API Reader (Test)</title>
 </head>
 <body>
-    <!-- Load local firebase-tools library -->
+    <!-- Load local library -->
     <script src="src/airtable-api-reader.js"></script>
 
     <script>
